@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('individual_product_price');
             $table->string('total_order_price');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

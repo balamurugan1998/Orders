@@ -10,4 +10,5 @@ class Order extends Model
 {
     use HasFactory, SoftDeletes;
     protected $dates = ['deleted_at'];
+    protected $table = "orders";
 }
